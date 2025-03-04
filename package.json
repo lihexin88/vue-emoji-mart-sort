@@ -55,7 +55,6 @@
     "start": "npm run dev",
     "deploy": "npm version patch && npm run build && npm publish"
   },
-  "__npminstall_done": true,
   "_from": "vue-emoji-mart@1.0.5",
   "_resolved": "https://registry.npmmirror.com/vue-emoji-mart/-/vue-emoji-mart-1.0.5.tgz"
 }

@@ -1236,6 +1236,10 @@ var I18N = {
 
           return 0;
         });
+        // 根据 this.include 对 allCategories 进行排序
+        allCategories = allCategories.sort(function (a, b) {
+          return = _this2.include.indexOf(a.name.toLowerCase()) - _this2.include.indexOf(b.name.toLowerCase());
+        });
       }
 
       var _iteratorNormalCompletion = true;

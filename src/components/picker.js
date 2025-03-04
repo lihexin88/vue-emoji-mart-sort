@@ -4,9 +4,9 @@ import measureScrollbar from 'measure-scrollbar'
 
 import store from '../utils/store'
 import frequently from '../utils/frequently'
-import { deepMerge, loadEmojiData } from '../utils'
+import {deepMerge, loadEmojiData} from '../utils'
 
-import { Anchors, Category, Emoji, Preview, Search } from '.'
+import {Anchors, Category, Emoji, Preview, Search} from '.'
 
 const RECENT_CATEGORY = { name: 'Recent', emojis: null }
 const SEARCH_CATEGORY = { name: 'Search', emojis: null, anchor: false }
@@ -189,6 +189,10 @@ export default {
 
           return 1
         })
+        // 根据 this.include 对 allCategories 进行排序
+        allCategories = allCategories.sort(function (a, b) {
+          return this.include.indexOf(a.name.toLowerCase()) - this.include.indexOf(b.name.toLowerCase())
+        });
       }
 
       for (let category of allCategories) {
