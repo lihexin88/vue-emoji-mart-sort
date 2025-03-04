@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3954ff9f-4d0b-4d01-b051-a933c38a4bb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "lihexin88",
+      "author": "lihexin88",
+      "label": "bug"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lihexin88",
+    "author": "lihexin88",
+    "label": "bug"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:lihexin88/vue-emoji-mart-sort.git",
+    "accountId": "d654101d-bb5c-40b5-80f6-c2675e7d67fb"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/local/php/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -58,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741090813499</updated>
       <workItem from="1741090814515" duration="153000" />
-      <workItem from="1741100254799" duration="539000" />
+      <workItem from="1741100254799" duration="922000" />
     </task>
     <servers />
   </component>
